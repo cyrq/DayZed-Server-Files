@@ -1,0 +1,301 @@
+DAYZED CHANGELOG FOR 0.2.9.7
+
+[NEW] New buildings interiors: Mil_Guardhouse, Mil_Barracks, Shed_W4, Ind_SawMill, HouseV_1I3, HouseV_2I, HouseV_1I1, Mil_House 
+[NEW] Added 50 new skins/clothings ((Big Thanks to DayZ Sahrani Team!)
+[NEW] Added random skins/clothings for players spawn
+[NEW] Drinking directly from water pumps
+[NEW] Player's will now leave blood trails when bleeding (Created by Purplish, Heavily modified by Alby)
+[NEW] New weapons added: SVD Ironsight, SVD NSPU, Cheytac M200 Intervention
+[NEW] New weapons attachments models based on orginal Arma models
+[NEW] Ability to fix broken NVGoggles, GPS, Radio and Rangefider
+[NEW] Broken items: GPS, NVG, Radio, Rangefinder and Scrap Electronics added to loot tables
+[NEW] Player can now run out of Matches
+[NEW] Weather data is now saved to the database
+[NEW] Furniture and loot positions added for new buildings
+[NEW] Hunting Knife can become blunt after gutting an animal
+[NEW] New searchable objects added: ammobox/metal locker 
+[NEW] Players clothes will switch after relog
+[NEW] Ladder added to International Hotel model
+[FIX] Fixed bulletproof and zombieproof trees (picea)
+[FIX] Fixed Firestation ladder glich
+[FIX] Reduced transportMaxMagazines and transportMaxWeapons in Trucks due to ArmA 2 limitations, "format" can only return 2048 characters
+[FIX] Fixed issue when players ware not able to eat/drink after joining the server, even if their status was critical
+[FIX] Zeds will now properly spawn inside buildings
+[FIX] Fixed a bug when a player combat-logs inside a a building on 1st/2nd floor and ends up inside the texture
+[FIX] Switching camera (1st/3rd person view) now works in all cases
+[FIX] Disable IR lasers on all weapons
+[FIX] Crash site's radius  increased to 5km from the center of the map
+[FIX] Weapon from carry slot will be dropped on the ground on players death
+[FIX] Fixed damage for 30Rnd_556x45_StanagSD ammunition (STANAG/G36 SD)
+[FIX] Fixed vehicle ammo refill
+[FIX] Stamina System simplified
+[FIX] Zeds won't agro on Air Vehicles, cousing major FPS drops. If the player was targeted on foot, Zeds will still chase him
+[FIX] Fixed 'any' from repairing vehicle cuttext
+[FIX] Added magazine model for Cheytac M200 Intervention
+[FIX] Map additions fixes (rebuilded Stary Sobor)
+[FIX] Fixed bugs in some furniture objects
+[FIX] Overall fixes and files cleanup
+[FIX] Overall loot table fixes
+[DEL] Removed some clipping original Arma/DayZ objects
+[DEL] Removed additional NWA barrack building and surrounding objects
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DAYZED CHANGELOG FOR 0.2.9.6
+
+[FIX] Fixed Painkillers
+[FIX] Fixed Camera switching
+[FIX] Bleeding chance increased from 10% to 15%.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DAYZED CHANGELOG FOR 0.2.9.5
+
+[NEW] Loot piles lowered to only one item per pile / except weapons
+[NEW] Player's will now slowly (0.1/~2 sec) regain blood, when they are full, not injured, not infected and not tired (up to 9k blood max)
+[NEW] When eating/drinking in a vehicle, food/drinks with output (Cans, Chips, Sodas) will be added to vehicle's cargo.
+[NEW] Morphine Injection sound
+[NEW] Remote players will now recieve an on-screen message when a medical action is performed on them
+[NEW] StorageBox crafting now needs x4 Nails
+[NEW] Added ability to burn down StorageBoxes
+[NEW] New vehicles added: UAZ-DShKM and Offroad-DShKM
+[NEW] DShKM Mag. (50) ammo added to loot table
+[NEW] Added Bizon/BizonSD ammo model
+[FIX] Blocked access to inventory while performing action water filling
+[FIX] Player camera mode will return to it's initial value after he gets out of a vehicle.
+[FIX] Player camera mode will return to it's initial value after he changed clothes/model
+[FIX] Player damage chance while changing clothes fixed.
+[FIX] You cannot change clothes while wearing a backpack. This a temp solution for backpack ammo refill.
+[FIX] Player's will not be able to use certain medical action if their status doesn't require it.
+[FIX] Military Container accuracy fix
+[FIX] Added or redesigned loot pile positions for buildings: Land_stodola_old_open, Land_Mil_ControlTower, Land_a_stationhouse
+[FIX] Overall loot table fixes
+[DEL] Removed dayz_vehicles since it's useless.
+[DEL] Temporary removed hammer and lug wrench from loot table
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DAYZED CHANGELOG FOR 0.2.9.4
+
+[NEW] st_map_auto_brightness - http://www.armaholic.com/page.php?id=17326
+[NEW] Searchable military containers added near the bunkers entrance
+[NEW] New Vehicle spawning system
+[NEW] Two bunkers (not-enterable) added in area Skalka and Black Lake
+[NEW] New weapon: Ruger Mk II
+[NEW] New vehicles added: Mountain Bike, Urals: CDF and UN Civilian, Mi-17 Civilian, VWGolf, OldTractor
+[FIX] Water Filling has been rewritten for faster execution and to fix duping.
+[FIX] Jerry Can filling exploit with more then 1 player
+[FIX] Fixed StorageBox dissapearing bug
+[FIX] Proper magazine model for Stechkin APS
+[FIX] Fixed UH-1H, UH-1H Camo, Mi-17 ammunition refill after each restart
+[FIX] Fixed all Hitpoints in ArmA 2 configs for Vehicles
+[FIX] Bots will always spawn onthe  ground instead of mid-air if the player disconnect's in combat
+[FIX] Fixed AI pilots parachuting from Heli's and triggering AH
+[FIX] Player's will no longer perform salvage/repair/inspect animations when swimming
+[FIX] Fixed model changes based on humanity values
+[FIX] Removed refuelling option when near barrels and inside vehicles
+[FIX] Reedited amount of windscreen glass needed to repair helicopters: UH-1H, MH-6J
+[FIX] Kamaz and BTR auto-repair bug fixed
+[FIX] Redesign loot positions for Land_Panelak and Land_Panelak2 residential class buildings
+[FIX] Server and Client performance
+[DEL] AH-6X Littlebird
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DAYZED CHANGELOG FOR 0.2.9.3
+
+[FIX] Player Bot's won't spawn on debug and screw up player position (ex: during login)
+[FIX] Rewritten Gear/Position/Player Status sync with Hive
+[FIX] Fixed player position not saving to Hive after getting unconscious
+[FIX] Fixed an issue when the logout timer was a decimal value (ex: 29.00001)
+[FIX] Fixed an issue with Anti TP, which sometime's reverted a Dead Body
+[FIX] Fixed G36_C_SD_eotech despawning on pickup
+[FIX] Fixed Water Filling dupe
+[FIX] Fixed Instant Full Thirst in Mounted Sots
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DAYZED CHANGELOG FOR 0.2.9.2
+
+[NEW] Rewitten Chernarus Debris spawning system
+[NEW] Construction yard added to Lopatino
+[NEW] New loot aded to Searchable objects
+[NEW] New ammo model for LApua Magnum
+[NEW] Added back PlantSpawner (no action yet)
+[FIX] Fixed BIS function fn_vectorAdd 0 divisor error
+[FIX] Fixed armor for StorageBox
+[FIX] Fixed AI Chinook behaviour
+[FIX] Transfusion time variables
+[FIX] Item count display for StorageBox
+[FIX] Chloroform action available on animals
+[FIX] Player's could not pickup flares and chemlights after removing the mounted Flashlight
+[FIX] Teleport revert on Mounted Vehicles
+[FIX] Tweaked player synchronization loop
+[FIX] Player's ware unable to pickup any packpas after "Another Player Near by, Only one player must be within 5 meters of a bag to pickup"
+[FIX] Lowered blood regen values for some cooked meat
+[FIX] Proper vectors for Land_Ind_IlluminantTower
+[FIX] Some server functions rewritten
+[FIX] Obsolete code cleanup
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DAYZED CHANGELOG FOR 0.2.9.1
+
+[NEW] New Item: Wire Cutter (http://i.imgur.com/fVWYqFg.jpg). Gives you ability tu cut down Fences all around Chernarus.
+[NEW] Restored 3DP (a non 3DP server will be available in the future)
+[NEW] 3DP limited to "on foot" only - no 3DP in vehicles
+[NEW] Zeds will now also spawn in forests and other non-urban areas
+[NEW] Crafting mechanics
+[NEW] New Item: Woodworking Guide (http://i.imgur.com/bO9QArD.jpg). Gives you ability to craft items based on wood (more will come)
+[NEW] New Item: Hammer (no action yet)
+[NEW] New Item: Lug Wrench (no action yet)
+[NEW] New deployable: Storage Box (transportMaxMagazines = 25, transportMaxWeapons = 5, transportMaxBackpacks = 2). Only available through crafting. Requirements (2x Wood Pile, 1x Nails)
+[NEW] You can now go fishing with a Fishing Pole (You can also fish in ponds and on a Boat)
+[NEW] You can now find bacpacks, weapons and items in searchable furniture
+[NEW] Added supermarket in Gvozdno
+[NEW] Players can now check their humanity by reading a Bible.
+[NEW] Added suppressed variants of AKS-74U and AKS74U-KOBRA
+[NEW] Faster inString function by Killzone_Kid (http://killzonekid.com/)
+[NEW] PSO Scope Crosshairs changed to standard ARMA ones (black)
+[NEW] Force setTerrainGrid on clients
+[FIX] Fixed problems with player position not being updated in certain circumstances
+[FIX] Reduced the distance from nearby town on player spawn
+[FIX] Fixed some config problems with Inspect Vehicle animations
+[FIX] AKS-74U now uses standard AK Mag. / AKSD Mag. in suppressed version (AKSU Mag. removed from loot tables)
+[FIX] Fixed initSpeed for AKMSD Mag
+[FIX] Fixed initSpeed for 30Rnd. StanagSD Mag and G36SD Mag
+[FIX] Fixed DayZed Logo position in Inventory UI
+[FIX] Fixed issues with Blood Transfuison (Rewritten)
+[FIX] Redone some AntiHack logic
+[FIX] Fixed vehicle light's ambient and distance
+[FIX] Removed dead bodies and some rubbish from Balota and Berezino
+[FIX] Fixed fuel capaticy in Gyro's
+[FIX] Lowered the radius for nearby Z's when trying to log out
+[FIX] Fixed AI Heli behaviour
+[FIX] Fixed combineMags statements
+[FIX} Fixed Kamaz cargo and animations
+[FIX] Fixed some cutTexts
+[FIX] Fixed attachment add/remove for RK 95 variants
+[FIX] Fixed attachment add/remove for MP5 variants
+[FIX] Two Primary Weapon exploit has been rewritten. You won't loose your gun now. It will be dropped on the ground instead.
+[FIX] Fixed Heli names in cutTexts during SOS signal (displayNames instead of Classnames)
+[FIX] Players can now place Tents and other objects underneath Camo Nets
+[FIX] Players are no longer allowed to place objects in water (ponds, dams etc.)
+[FIX] Object's placed by player are properly destroyed in the database when shot, smashed with a hatchet, drove over etc.
+[FIX] Minor performance fixes
+[FIX] More redundant code clean up
+[FIX] Improved server-side logging
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DAYZED CHANGELOG FOR 0.2.9 (ONLY PL)
+
+[NEW] Nowy system logout - Zawsze 30 sekundowy timeout. Można wylogowywać się wszedzie.
+[NEW] Poprawiony i uproszczony system InCombat. Zużywa mniej zasobów i nie spawnuje niepotrzebnie botów.
+[NEW] Losowy spawn graczy przy starcie (new spawn) na obszarze prawie całej mapy.
+[NEW] Dodany system tekstowej komunikacji przez Radio. Wiadomość mogą odczytać tlyko inni posiadacze radia.
+[NEW] Dodany efekt rozprysku krwi znany z misji Eagle Wing.
+[NEW] Dodano ruiny zamku na Black Mountain.
+[NEW] Dodano lokację w obrębie Tikhaya Bay.
+[NEW] Dodano apteczki do szpitala w Zelenogorsk'u.
+[NEW] Dodane pozycje loot'u (military) dla bundku Land_vez.
+[NEW] Nowe, bardziej realistyczne animacje dla akcji naprawy i demontażu części z pojazdów.
+[NEW] Akcja ścinania drzewa zmieniona na animację. Gracz mu musi posiadać siekierę w rękach. Ścięte drzewo ląduje na ziemi zamiast trafiać prosto do Inventory.
+[NEW] Dodany nowy pojazd: zmodyfikowane dwa Gyrocopter'y z addonu Auto Gyro by CSJ.
+[NEW] Dodany nowy pojazd: BTR.
+[NEW] Dodano nowy pojazd: Kamaz.
+[NEW] Dodano nowy pojazd: SUV (Camo).
+[NEW] Dodano nową broń: Karabin szturmowy FAMAS F1.
+[NEW] Dodano nową broń: Karabin wyborowy M40A3 (oraz jego druga odmiane M40A5).
+[NEW] Dodano nową broń SVD Black.
+[NEW] Dodany nowy item Ghillie Rifle Rag Kit, na podstawie prze-teksturowanego modelu paczek ubrań.
+[NEW] Dodana możliwości jednostronnej modyfikacji broni M40A3 na M40A3 Ghilli oraz SVD Black na SVD Ghilli za pomocą Ghillie Rifle Rag Kit.
+[NEW] Dodano Kilka nowych efektów świetlnych w nocy.
+[NEW] Nowy efekt promieni słonecznych - nie oślepia nas jakby to był laser
+[NEW] Nowy schemat kolorystyczny (Color Correction).
+[NEW] Zmiany w CfgFaces, kilka nowych face'ów do wyboru w Player Profile/Faces
+[NEW] Dodany nowy plecak: Medic Pack (20 slotów)
+[FIX] Dodane logo DayZed to ekranu Inventory.
+[FIX] Poprawione pozostałe błędy z "no entry" itp.
+[FIX] Usunięte zbędne stringi, odwołania i inne pozostałości z DayZ Vanilla.
+[FIX] Usunięte menu Squad XML z ekranu listy graczy (wydajność).
+[FIX] Wartośc krwi po zjedzeniu wzrasta od razu z racji, że nie można jeść non-stop.
+[FIX] System naprawy rowerów poprawnie zapisuje wartośc zniszczeń.
+[FIX] Obniżony dystans maksymalnego agro Zedów - nie powinny już startować do nas z 2km.
+[FIX] Poprawione zamienione nazwy dla skinów KSK i Delta Force.
+[FIX] Poprawiony system naprawy i demontażu części z pojazdów (repair/salvage).
+[FIX] Poprawiony błąd przy respawnujących się pojazdach po restarcie pomimo ich zniszczenia przed.
+[FIX] Poprawiony błąd z niezapisywaniem się pozycji gracza po uderzeniu przez Zeda, które miało spowodować infekcję.
+[FIX] Naprawiony błąd z nieaktualizującym się stanem GUI po uderzeniu przez Zeda, które miało spowodować infekcję.
+[FIX] Odrobię przyśpieszony spadek wartości odpowiedzialnych za pragnienie/głód.
+[FIX] Odrobinę obnizona wartość "wspinania się" Staminy.
+[FIX] Poprawne modele amunicji dla broni Double-Barreled Shotgun (MR43).
+[FIX] Dodany magazynek 100Rnd_762x54_PK wykorzystywany w Mi-17.
+[FIX] Poprawiony spawn loot'u na Crash Site's.
+[FIX] Poprawiony brak akcji "Search" dla jednego z elementów szpitala w Electro.
+[FIX] Poprawione cutTexty dla akcji łączenia magazynków.
+[FIX] Drobne, balansujące zmiany w tabeli loot.
+[FIX] Naprawiony problem z akcją Remove Rifle Suppressor dla broni UMP SD.
+[FIX] Poprawione położenie (kontakt z ziemią) dla modelu item'u Camouflage Net.
+[FIX] Zmodyfikowany "armor" poszczególnych części pojazdu SUV/SUV (Camo) i niektórych jego właściwości (np. usunięty GPS).
+[FIX] Naprawiony problem z pojawianiem się drugiego typu namiotu ItemDomeTent.
+[FIX] Poprawiono opisy broni, amunicji oraz niektórych pojazdów.
+[FIX] Zedytowano większość pojazdów pod względem: prędkości poruszania się w terenie, ilości przechowywanego wyposażenia/broni, nazw, "armor'u" kół - dotyczy większości ciężarówek.
+[FIX] Poprawiono położenie obiektów, które można przeszukiwać: szafki, lodówki itd. (niektóre stały krzywo).
+[DEL] Usunięto Tikhaya City
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DAYZED CHANGELOG FOR 0.2.8 (ONLY PL) -- LEGACY
+
+Wszytskie elementu UI ARMY w kolorze "obsranej zieleni" zostały zmienione
+Zmieniony wygląd cześci UI odpowiadający za informacje dot. broni, zerowania etc (http://i.imgur.com/0mvRPns.jpg)
+Zmienione Menu MP (http://i.imgur.com/iFU7Fyo.jpg)
+Naprawiony problem z przeszukiwaniem elementów wyposażenia
+Usunięto Sepsis (zakażenie?) i wszytskie przedmioty z nią związane. Sepsis != Infekcja
+Sporo zmian w kodzie klienta, kolejne optymalizację
+Naprawiony brak akcji "remove rifle suppressor" dla broni M4A1 AIM SD
+Naprawiony Chinook-CH47F, który zapętlał się podczas lotu
+Naprawiony bug ze Stmainą, która spadała podczas gdy zasiadaliśmy na dodakowych miejscach (mounted slots) w pojazdach
+Graczę będa odzyskiwać Staminę podczas jedzenia i picia. Mleko i Pieczone mięso odzyskują więcej Stmainy niż packzi chipsów lub Cola
+Poprawiony błąd ze znikająca butelką po wypiciu czystejwody
+Poprawiony błąd ze znikającymi Bear Trap'ami po restarcie serwera
+Poprawiony błąd z synchronizacją czasu
+Gracz nie będzie się mógł zabandażować jeśli nie krwawi
+Gracz po przekroczeniu maksymalnej wartości zmęczenia (Stmaina) będzie mdlał zamiast wykonywać animację
+Dodany efekt bicia serca, gdy wartość staminy będzie już wartością niebezpieczną
+Poprawiony spawn namiotów i innych deployables po restarcie serwera. Wszystkie powinny być skierowane ku tej samej pozycji co przy ich postawieniu
+Po połączeniu magazynków gracz otrzyma informację dot. ich ilości itp
+Naprawiony błąd z błędnym menu (PPM) gdy gracz posiada broń biała w Carry Slot'ie
+Poprawione ścinanie drzew oraz informacje na ekranie dot. samej akcji. Wszystkie ich rodzaje są poprawnie niszczone. (Fun fact: Chernarus posiada 75 różnych rodzajów/modeli drzew :o)
+Poprawione deployables
+SFX dla itemu ItemMagnesiumRod
+Rozpalanie ogniska za pomocą ItemMAgnesiumRod automatycznie rozpala ogień
+Dodane/Poprawione pozycje loot'u dla budynku Supermarket'u
+Poprawiona słyszalność dźwięku przeładowania broni dla SKS
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+DAYZED CHANGELOG FOR 0.2.6 -- LEGACY
+
+Added backback slot count to their descriptions
+Fixed/added audible fire rate value for some weapons
+Added breathfog script known from Namalsk (Triggered when tired)
+Slightly increased chance of loosing zeds
+Improved loot positions and values for: C130J_wreck_EP1 and Land_Barrack2
+New weapon: SKS Rifle from BWC Weapons Pack addon (see credits)
+Fixed problems for removing Holo sights with some M16A4* variants
+Removed flies on dead animals
+New jerry fill system
+Removed Field Hospital w in Balota (will be replaced with something new later on)
+Fixed Water Bottles desciptions and cutTexts
+New Crash Site's: Chinook-CH47F
+Udated/Fixed loot tables for Military Crash Sites
+Removed Infected Camps
+Some object fixes in Tikhaya City
+Fixed respawning vehicles after Ignite Vehicle action
+Fixed some ammo descriptions
+Fixed/Updated loot tables for Medical Tents
+Fixed pickup of Melee weapons (they won't delete you primary anymore)
+Removed some useless client side loops (shuld improve performance)
+Faster login

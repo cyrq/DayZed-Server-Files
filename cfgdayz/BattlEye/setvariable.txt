@@ -1,0 +1,60 @@
+//new
+5 !"USEC_" !"NORRN_" !"BIS_" !"hit_" !=totaldmg !=actionSet !=agentObjectCamps !=armed !=banditKills !=BIS_noCoreConversations !=characterID !=claimed !=combattimeout !=deathType !=doLoiter !=firedDamage !=firedHit !=freeTarget !=headShots !=hitRegistered !=humanity !=humanKills !=lastPos !=lastDir !=looted !=meatHarvested !=medForceUpdate !=messing !=myDest !=owner !=posForceUpdate !=remotetargets !=temperature !=unconsciousTime !=updatePlayer !=zombieKills !=zombieSpawn !=inmountedslot !=vehicleinspected !=sarge !=fuelamount !=mountedvehicle !=shooter2 !=shooter1 !=shooter3 !=heading !=cowmilked !=objectsearched !=notincombat !=LastTransfusion !=isFilling !=model_CHK
+5 "USEC_" !=USEC_BloodQty !=USEC_infected !=USEC_injured !=USEC_inPain !=USEC_isCardiac !=USEC_isDead !=USEC_lowBlood !=USEC_Sepsis
+5 "NORRN_" !="NORRN_LoadVcl" !="NORRN_unconscious" !="NORRN_unit_dragged"
+5 "BIS_" !=bis_greetedbyevil !=bis_greetedbylanguages !=bis_greetedbypeople !=bis_greetedbytimes !=bis_greetedlanguages !=bis_greetedpeople !=bis_greetedtimes
+
+1="USEC_infected"
+1="USEC_injured"
+1="USEC_isDead"
+1=USEC_Sepsis
+1=bis_greetedbyevil
+1=bis_greetedbylanguages
+1=bis_greetedbypeople
+1=bis_greetedbytimes
+1=bis_greetedlanguages
+1=bis_greetedpeople
+1=bis_greetedtimes
+1="hit_Pelvis"
+1="hit_aimpoint"
+1="hit_lelbow"
+1="hit_relbow"
+1="hit_RightFoot"
+1="hit_LeftFoot"
+1="hit_neck"
+1="hit_pilot"
+1="hit_hands"
+1="hit_legs"
+1=actionSet
+1=agentObjectCamps
+1=armed
+1=banditKills
+1=BIS_noCoreConversations
+1=characterID
+1=claimed
+1=deathType
+1=doLoiter
+1=firedDamage
+1=firedHit
+1=freeTarget
+1=headShots
+1=hitRegistered
+1=humanity
+1=humanKills
+1=meatHarvested
+1=updatePlayer
+1=zombieKills
+5 "\+"
+5 ";"
+5 ","
+5 "\{"
+5 "\("
+5 "\["
+5 "\|"
+5 "&"
+5 "="
+5 ":"
+5 "!"
+5 "%"
+5 "\""
+5 "'"
