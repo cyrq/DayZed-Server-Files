@@ -16,5 +16,6 @@ diag_log ("Loading Structures");
 #include"\z\addons\dayz_server\buildings\vaults.sqf";
 #include"\z\addons\dayz_server\buildings\furniture_land_mil_house.sqf";
 #include"\z\addons\dayz_server\buildings\furniture_land_mil_guardhouse.sqf";
+#include"\z\addons\dayz_server\buildings\furniture_land_mil_barracks.sqf";
 #include"\z\addons\dayz_server\buildings\wildzeds.sqf";
 diag_log ("Loading Structures - Complete!");
