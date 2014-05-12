@@ -70,8 +70,8 @@ link33[] = {28,9};
 link34[] = {29,30};
 link35[] = {30,31};
 link36[] = {31,28};
-globals[] = {25.000000,1,0,0,0,640,480,1,48,6316128,1,-510.136230,298.275146,699.694580,-343.379028,689,889,1};
-window[] = {2,-1,-1,-1,-1,855,75,1404,75,3,707};
+globals[] = {25.000000,1,0,0,0,640,480,1,48,6316128,1,-502.092529,290.231293,689.315796,-333.000458,689,889,1};
+window[] = {2,-1,-1,-32000,-32000,980,200,1529,200,3,707};
 *//*%FSM</HEAD>*/
 class FSM
 {
@@ -146,7 +146,7 @@ class FSM
           to="weather_save";
           precondition = /*%FSM<CONDPRECONDITION""">*/""/*%FSM</CONDPRECONDITION""">*/;
           condition=/*%FSM<CONDITION""">*/"((diag_tickTime - _timeWeather) > 1800)"/*%FSM</CONDITION""">*/;
-          action=/*%FSM<ACTION""">*/"_lastUpdate = diag_tickTime;"/*%FSM</ACTION""">*/;
+          action=/*%FSM<ACTION""">*/"_timeWeather = diag_tickTime;"/*%FSM</ACTION""">*/;
         };
         /*%FSM</LINK>*/
         /*%FSM<LINK "Objects_need_upd">*/
