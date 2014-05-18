@@ -267,7 +267,7 @@
 5 camp_spawnzombies
 5 createGroup
 5 createUnit
-5 dayz !dayzSetDate
+5 dayz !dayzSetDate !DayZed
 5 dog_
 5 drn_
 5 eh_localcleanup
