@@ -8,7 +8,7 @@ DayZed uses the Reality Hive by [thevisad](https://github.com/thevisad) - origin
 
 Licence
 ======================
-![image](http://www.bistudio.com/license-icons/small/DML-SA.png)
+![image](https://www.bistudio.com/assets/img/licenses/DML-SA.png)
 
 (http://www.bistudio.com/community/licenses/dayz-mod-license-share-alike)
 
